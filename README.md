@@ -1,2 +1,52 @@
-# twitter-bot-python
-this twitter bot will tweet someone who tweets a term you are listening for 
+# twitterbot-reply-python
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8421ccaf63124572bc95a45103c81031)](https://www.codacy.com/app/sjehutch/twitterbot-reply?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sjehutch/twitterbot-reply&amp;utm_campaign=Badge_Grade)
+
+
+
+
+##This bot has  main use 
+1. It listens for a keyword example right now fitnes
+
+2. it responds to the user who tweeted it with a generic text, @symbol and image
+
+The tools used in this project were python3 
+
+###You will want to import the following in your main .py file (i called mine hello.py) 
+
+```
+import tweepy #Library for twitter writeen in python
+import logging #Logging Duh
+import time    #time module for the sleep function
+import sys     #system for importing images to your tweet
+import requests
+import os
+```
+
+**Step 1** 
+Create a twitter application by going to https://apps.twitter.com > Create new 
+
+**Step 2**
+Download this repo 
+
+**Step 3**
+Update the keys with your keys otherwise you will be spamming with my twitter account :-)
+
+**Step4**
+Update and play around with the code (make sure you create a branch of your own first 
+
+**Step 5** 
+save the py file run python hello.y and check out your twitter feed 
+
+
+###to-dos 
+Showing how to run this as a background job 
+
+Pulling the keyword i want to search from a db or a place where i can update it on the fly 
+
+Better verbose logging 
+
+##Sample 
+-This is my bot responding with an image to a tweet about fitness 
+![alt text](https://dl.dropboxusercontent.com/u/32232546/Screen%20Shot%202017-02-20%20at%206.39.24%20AM.png "")
+
