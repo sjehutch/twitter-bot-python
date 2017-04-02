@@ -5,14 +5,14 @@
 
 
 
-##This bot has  main use 
+## This bot has 2 main uses 
 1. It listens for a keyword example right now fitnes
 
 2. it responds to the user who tweeted it with a generic text, @symbol and image
 
 The tools used in this project were python3 
 
-###You will want to import the following in your main .py file (i called mine hello.py) 
+### You will want to import the following in your main .py file (i called mine hello.py) 
 
 ```
 import tweepy #Library for twitter writeen in python
@@ -39,7 +39,7 @@ Update and play around with the code (make sure you create a branch of your own 
 save the py file run python hello.y and check out your twitter feed 
 
 
-###to-dos 
+### to-dos 
 Showing how to run this as a background job 
 
 Pulling the keyword i want to search from a db or a place where i can update it on the fly 
